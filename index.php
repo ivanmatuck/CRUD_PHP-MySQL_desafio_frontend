@@ -17,7 +17,8 @@
                   
              <div class="card card-body">
                  <form action="save_task.php" method="POST">
-                     <div class="form-group">
+                     <legend><img src="images/avatar.png" alt="(imagem)" width="100"><h5 class="text-black h5">Novos Cadastros</h5></legend>
+                    <div class="form-group">
                          <input type="text" name="nome" class="form-control" placeholder="nome" autofocus>
                      </div>
                      <div class="form-group">
@@ -35,10 +36,10 @@
              <table class="table table-bordered">
                  <thead>
                      <tr>
-                         <th>Nome</th>
-                         <th>email</th>
-                         <th>Telefone</th>
-                         <th>Ações</th>
+                         <th><i class="fas fa-user"></i> Nome</th>
+                         <th><i class="fas fa-envelope-open-text"></i> e-mail</th>
+                         <th><i class="fas fa-phone"></i> Telefone</th>
+                         <th><i class="fas fa-tools"></i> Ações</th>
                      </tr>
                  </thead>
                  <tbody>
@@ -52,12 +53,12 @@
                              <td><?php echo $row['email']?></td>
                              <td><?php echo $row['telefone']?></td>
                              <td>
-                                 <a href="edit.php?id=<?php echo $row['id']?>" class="btn btn-secondary">
-                                     <i class="fas fa-marker"></i>
+                                 <a href="edit.php?id=<?php echo $row['id']?>" class="btn btn-warning">
+                                     <i class="fas fa-user-edit"></i>
                                  </a>
                                  <a href="delete_task.php?id=<?php echo $row['id']?>" 
                                     class="btn btn-danger">
-                                     <i class="far fa-trash-alt"></i>
+                                     <i class="fas fa-eraser"></i>
                                  </a>
                              </td>
                          </tr>

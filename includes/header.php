@@ -11,13 +11,12 @@
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/4dcaec242e.js"></script>
     
+    
 </head>
 <body>
 
-
+    
 <nav class="navbar navbar-dark bg-dark">
-   <div class="container">
-       <a href="index.php" class="navbar-titulo"><h2>CRUD PHP MySQL</h2></a>
-   </div>
+  <h4 class="text-white h4">CRUD PHP MySQL</h4>
     
 </nav>

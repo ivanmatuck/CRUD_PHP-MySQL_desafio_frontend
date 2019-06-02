@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 02-Jun-2019 às 12:48
+-- Generation Time: 02-Jun-2019 às 22:41
 -- Versão do servidor: 10.1.40-MariaDB
 -- versão do PHP: 7.2.18
 
@@ -32,7 +32,7 @@ CREATE TABLE `task` (
   `id` int(10) NOT NULL,
   `nome` varchar(70) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(70) COLLATE utf8_unicode_ci NOT NULL,
-  `telefone` int(11) NOT NULL
+  `telefone` varchar(15) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -40,9 +40,11 @@ CREATE TABLE `task` (
 --
 
 INSERT INTO `task` (`id`, `nome`, `email`, `telefone`) VALUES
-(7, 'Fred Mercury', 'fredinhojunior@uol.com', 2147483647),
-(9, 'Jimmy Cliff', 'jimmy45@hotmail.com', 2147483647),
-(10, 'Carla', 'carlinha44@gmail.com', 2147483647);
+(21, 'Fred Mercury', 'fredinho@uol.com', '11957846231'),
+(22, 'Jimmy Cliff', 'jimmy45@hotmail.com', '11948721155'),
+(23, 'Carla', 'carlinha44@gmail.com', '1199990222'),
+(24, 'Pedro', 'pedrinho@outlook.com', '1197483647'),
+(25, 'Claudio Pereira', 'claudio@hotmail.com', '11943224258');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +64,7 @@ ALTER TABLE `task`
 -- AUTO_INCREMENT for table `task`
 --
 ALTER TABLE `task`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
