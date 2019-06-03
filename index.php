@@ -19,13 +19,13 @@
                  <form action="save_task.php" method="POST">
                      <legend><img src="images/avatar.png" alt="(imagem)" width="100"><h5 class="text-black h5">Novos Cadastros</h5></legend>
                     <div class="form-group">
-                         <input type="text" name="nome" class="form-control" placeholder="nome" autofocus>
+                         <input type="text" name="nome" class="form-control" placeholder="Digite seu nome" autofocus maxlength="70" required>
                      </div>
                      <div class="form-group">
-                         <input type="text" name="email" class="form-control" placeholder="email" autofocus>
+                         <input type="email" name="email" class="form-control" placeholder="Digite seu e-mail" autofocus maxlength="70" required>
                      </div>
                      <div class="form-group">
-                         <input type="text" name="telefone" class="form-control" placeholder="telefone" autofocus>
+                         <input type="tel" name="telefone" class="form-control" placeholder="(XX)XXXXX-XXXX" autofocus maxlength="15" required>
                      </div>
                      
                      <input type="submit" class="btn btn-success btn-block" name="save_task" value="Salvar Cadastro">
