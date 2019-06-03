@@ -22,7 +22,7 @@ Testei a aplicação, identifiquei um erro no banco de dados e corrigi.
 ### 11. Entrega - github
 Os arquivos foram todos disponibilizados no github, no seguinte endereço: https://github.com/ivanmatuck/desafio_frontend
 ### 12. Entrega - hospedagem
-Não foi solicitado, mas como o teste envolve banco de dados, que teria que ser hospedado em localhost na máquina de quem fosse testar para funcionar, hospedei o teste de forma funcional em um subdominio no site de um amigo.
+Não foi solicitado, mas como o teste envolve banco de dados, que teria que ser hospedado em localhost na máquina de quem fosse testar para funcionar, hospedei o teste de forma funcional no seguinte endereço (cedido por um amigo): Link: https://www.testecrudivan.decolandonabanca.com.br/index.php
 ### 13. README
 Finalizei agora o README com os passos e vou fazer o upload no github.
 
