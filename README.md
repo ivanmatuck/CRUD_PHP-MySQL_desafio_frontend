@@ -25,6 +25,8 @@ Os arquivos foram todos disponibilizados no github, no seguinte endereço: https
 Não foi solicitado, mas como o teste envolve banco de dados, que teria que ser hospedado em localhost na máquina de quem fosse testar para funcionar, hospedei o teste de forma funcional no seguinte endereço (cedido por um amigo): Link: https://www.testecrudivan.decolandonabanca.com.br/index.php
 ### 13. README
 Finalizei agora o README com os passos e vou fazer o upload no github.
+### 14. CORREÇÃO
+Alterei as tags dos campos do formulário de cadastro para as atuais e corretas do HTML5, para que verique se o e-mail é válido, por exemplo, e coloquei a função required, para que não aceite mais os campos vazios.
 
 ### Obrigado pela oportunidade!
 
